@@ -1,0 +1,236 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+}
+.container {
+  margin: 20px 80px 50px;
+}
+.radius {
+  border-radius: 10px;
+}
+.shadow {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.padding {
+  padding: 15px 20px;
+}
+h2.sectionH2 {
+  margin-top: 5px;
+  color: #373737;
+}
+/* Start header */
+header {
+  position: static;
+  background-color: #373737;
+  text-align: center;
+  color: white;
+}
+header h1 {
+  margin-bottom: 3px;
+  margin-top: 10px;
+}
+header h2 {
+  margin-top: 0;
+  color: #acacac;
+  font-weight: 400;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+header nav ul li:hover a {
+  color: #ffbf00;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* End header */
+/* Start section */
+#about {
+  background-color: white;
+}
+#about h2 {
+  margin: 0;
+}
+#about p {
+  margin: 0;
+}
+#about div {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  background-image: url("./images/tree.jpg");
+  background-size: 175%;
+  background-repeat: no-repeat;
+  background-position: 45%;
+}
+/* End section */
+/* Start sticky */
+div#sticky {
+  position: sticky;
+  background-color: #373737;
+  color: white;
+  width: fit-content;
+  top: 0;
+  z-index: 1;
+  margin: 0 auto;
+}
+/* End sticky */
+/* Start skills */
+#skills {
+  background-image: url("./images/progrmming.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+#skills h2 {
+  margin: 0;
+}
+#skills .box {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#skills .box .element {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 15px;
+  background-color: rgb(37, 180, 58);
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+  top: 0;
+}
+#skills .box .element:hover {
+  /* position: absolute; */
+  top: -5px;
+  background-color: rgb(0, 100, 0);
+}
+#skills .box .element:active {
+  top: 10px;
+}
+/* End skills */
+/* Start Projects */
+#projects {
+  position: relative;
+  background-color: white;
+  padding-bottom: 40px;
+}
+#projects > div.card {
+  text-align: center;
+  width: 175px;
+  height: 250px;
+  padding: 1px 35px;
+}
+#projects > div.card > h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+#projects > div.card > p {
+  margin-top: 0;
+}
+#projects div.orange {
+  background-color: orange;
+  margin-bottom: 50px;
+}
+#projects div.yellow {
+  background-color: yellow;
+}
+#projects div.gray {
+  background-color: gray;
+  width: 100%;
+}
+#projects div.purple {
+  background-color: purple;
+  position: absolute;
+  top: -450px;
+  left: 100px;
+}
+/* Ens Projects */
+/* Start contact */
+#contact {
+  padding-right: 0;
+}
+#contact h2 {
+  margin-bottom: 0;
+}
+#contact p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#contact form label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+#contact form input,
+#contact form textarea {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  width: 99.2%;
+  border: 2px solid #cecece;
+  border-radius: 5px;
+}
+#contact form input {
+  height: 25px;
+}
+#contact form input:focus,
+#contact form textarea:focus {
+  outline: none;
+  border-color: green;
+}
+#contact form button {
+  padding: 10px 20px;
+  border: 2px solid green;
+  color: green;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+#contact form button:hover {
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* End contact */
+/* Start footer */
+footer {
+  background-color: #373737;
+  text-align: center;
+  color: rgb(233, 233, 233);
+  padding: 10px 15px;
+  margin-bottom: -20px;
+}
+footer div span > a {
+  text-decoration: none;
+  color: #ffbf00;
+}
+/* End footer */
+/* Start top link */
+a#top {
+  position: fixed;
+  padding: 0 10px;
+  background-color: rgb(0, 149, 255);
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  top: 90%;
+  right: 5px;
+}
+/* End top link */
